@@ -1,2 +1,2 @@
 #!/bin/bash
-0-current-working_directory\n1-listit\nREADME.md\n
+printf 0-current-working_directory\n1-listit\nREADME.md\n
