@@ -1,7 +1,7 @@
 #!/bin/bash
 my_string="0-current-working_directory,1-listit,README.md"
-my_string=${my_string//./$'\n'}
-for word in $my_string
+my_str=$((echo $my_string|tr",""\n"))
+for i in ${my_str[@]}
 do
-	printf "$word"
+echo $i
 done
