@@ -1,2 +1,2 @@
 #!/bin/bash
-printf ${0-current-working_directory}${1-listit}${README.md}
+ls
