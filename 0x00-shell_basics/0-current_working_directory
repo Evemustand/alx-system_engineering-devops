@@ -1,2 +1,2 @@
 #!/bin/bash
-printf $PWD
+printf $PWD\n
