@@ -1,7 +1,2 @@
 #!/bin/bash
-my_string="0-current-working_directory,1-listit,README.md"
-my_str=$((echo $my_string|tr",""\n"))
-for i in ${my_str[@]}
-do
-echo $i
-done
+printf ${0-current-working_directory}${1-listit}${README.md}
